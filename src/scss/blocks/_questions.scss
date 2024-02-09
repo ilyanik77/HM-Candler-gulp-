@@ -1,63 +1,118 @@
-.questions {
-	.section__inner {
-		.questions__content {
-			.accordeon {
-				&__item {
-					background-color: #fafafa;
-					margin-bottom: 10px;
+// .accordeon {
+// 	&__item {
+// 		background-color: #fafafa;
+// 		margin-bottom: 10px;
 
-					.accordeon__title {
-						font-family: 'Yeseva One', cursive;
-						font-size: 16px;
-						font-weight: 400;
-						color: #000;
-						display: block;
-						width: 100%;
-						text-align: left;
-						background-color: transparent;
-						padding: 16px 50px 16px 25px;
-						border: none;
-						position: relative;
+// 		.accordeon__title {
+// 			font-family: 'Yeseva One', cursive;
+// 			font-size: 16px;
+// 			font-weight: 400;
+// 			color: #000;
+// 			display: block;
+// 			width: 100%;
+// 			text-align: left;
+// 			background-color: transparent;
+// 			padding: 16px 50px 16px 25px;
+// 			border: none;
+// 			position: relative;
 
-						&::after {
-							content: '';
-							background-image: url('../img/down.png');
-							width: 16px;
-							height: 16px;
-							position: absolute;
-							right: 26px;
-						}
-					}
+// 			&::after {
+// 				content: '';
+// 				background-image: url('../img/down.png');
+// 				width: 16px;
+// 				height: 16px;
+// 				position: absolute;
+// 				right: 26px;
+// 			}
+// 		}
 
-					.accordeon__text {
-						display: none;
-						padding: 20px 25px;
+// 		.accordeon__text {
+// 			display: none;
+// 			padding: 20px 25px;
 
-						&-title {
-							font-family: 'Yeseva One', cursive;
-							font-size: 16px;
-							font-weight: 400;
-							color: #000;
-							padding: 16px 50px 16px 0px;
-							position: relative;
-							width: 100%;
+// 			&-title {
+// 				font-family: 'Yeseva One', cursive;
+// 				font-size: 16px;
+// 				font-weight: 400;
+// 				color: #000;
+// 				padding: 16px 50px 16px 0px;
+// 				position: relative;
+// 				width: 100%;
 
-							&::after {
-								content: '';
-								background-image: url('../img/up.png');
-								width: 16px;
-								height: 16px;
-								position: absolute;
-								right: 1px;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+// 				&::after {
+// 					content: '';
+// 					background-image: url('../img/up.png');
+// 					width: 16px;
+// 					height: 16px;
+// 					position: absolute;
+// 					right: 1px;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+
+// .activ {
+// 	display: block;
+// }
+//--------------------------------------------
+// .accordeon {
+
+// }
+
+.accordeon__item {
+    background-color: #fafafa;
+    margin-bottom: 10px;
 }
 
-.none {
-	display: block;
+.accordeon__title {
+    font-family: 'Yeseva One', cursive;
+	font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    display: block;
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    padding: 16px 50px 16px 25px;
+    border: none;
+    position: relative;
+}
+
+.accordeon__title::after {
+    content: "";
+    background-image: url("../img/down.png");
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 26px;
+}
+
+.accordeon__text {
+    display: none;
+    padding: 20px 25px;
+    
+}
+
+.active {
+    display: block;
+}
+
+.accordeon__text-title {
+    font-family: 'Yeseva One', cursive;
+	font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    padding: 16px 50px 16px 0px;
+    position: relative;
+    width: 100%;
+}
+
+.accordeon__text-title::after {
+    content: "";
+    background-image: url("../img/up.png");
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 1px;
 }

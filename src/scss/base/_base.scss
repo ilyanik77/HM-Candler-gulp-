@@ -90,3 +90,12 @@ ul {
 	padding-bottom: 92px;
 }
 
+.menu__list {
+	display: flex;
+	gap: 20px;
+}
+
+.menu__list-item {
+	text-transform: uppercase;
+}
+
