@@ -1,0 +1,33 @@
+.footer {
+	padding-top: 40px;
+	padding-bottom: 25px;
+
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer__contacts {
+            display: flex;
+            flex-direction: column;
+            width: 230px;
+
+            &-email {
+                margin: 17px 0;
+            }
+            
+            &-social {
+                display: flex;
+                gap: 15px;
+            }
+
+        }
+
+
+    }
+
+
+}
+
+

@@ -1,0 +1,43 @@
+.header {
+	background: #fff8f3;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header__menu {
+
+            .menu__btn {
+                display: none;
+            }
+
+            .menu__list {
+                display: flex;
+                gap: 20px;
+
+                &-item {
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .phone {
+            position: relative;
+
+            &::before {
+                position: absolute;
+                top: -3px;
+                left: -23px;
+                content: '';
+                background-image: url(../img/phone.svg);
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
+
+
+
+

@@ -1,0 +1,92 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Comfortaa', sans-serif;
+	color: #000;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style: none;
+}
+
+.button {
+	border: none;
+	border-radius: 0;
+	padding: 18px 54px;
+	background: #ffbd59;
+	font-family: 'Comfortaa', cursive;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.section--decor {
+	position: relative;
+}
+
+.section--decor::before {
+	position: absolute;
+	background-image: url('../img/about-decor.png');
+	content: '';
+	left: 0;
+	bottom: 0;
+	width: 22px;
+	height: 30px;
+}
+
+.section--decor::after {
+	position: absolute;
+	background-color: #7b6152;
+	content: '';
+	left: 22px;
+	bottom: 13px;
+	width: 100%;
+	height: 1px;
+}
+
+.title {
+	font-family: 'Yeseva One', cursive;
+	font-size: 40px;
+	margin-bottom: 15px;
+	font-weight: 400;
+}
+
+.section {
+	padding-bottom: 150px;
+}
+
+.main {
+	background-color: #fff8f3;
+	overflow-x: clip;
+}
+
+.section__inner {
+	display: grid;
+	grid-template-columns: 370px auto;
+	gap: 20px;
+}
+
+.section__content-descr {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 50px 90px;
+	padding-bottom: 92px;
+}
+

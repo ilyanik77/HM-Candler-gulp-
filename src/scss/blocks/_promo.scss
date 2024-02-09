@@ -1,0 +1,29 @@
+.promo {
+	background-image: url('../img/promo-1.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 140px 0;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+
+        &__text {
+            color: #fff;
+            font-family: 'Yeseva One', cursive;
+            font-size: 40px;
+            font-weight: 400;
+            padding-left: 56px;
+        }
+
+        &__link {
+            margin-left: 108px;
+            background-color: #ffbd59;
+            min-width: 150px;
+            text-align: center;
+        }
+    }
+}
+
+

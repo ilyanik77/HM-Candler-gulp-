@@ -1,0 +1,58 @@
+.contacts {
+	padding: 150px 0 50px;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .form {
+            background: #fff;
+            width: 664px;
+            padding: 75px 42px 67px;
+
+            &__title {
+                color: #000;
+                font-family: 'Yeseva One', cursive;
+                font-size: 40px;
+                font-weight: 400;
+                margin-bottom: 60px;
+            }
+
+            &__input {
+                border: none;
+                width: 100%;
+                display: block;
+                border-bottom: 1px solid #000;
+                margin-bottom: 15px;
+                padding: 7px 10px;
+            }
+
+            &__input::placeholder {
+                color: #b3b3b3;
+                font-family: 'Comfortaa', cursive;
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            &__btn {
+                background-color: #ffbd59;
+                padding: 17px 34px;
+                font-family: 'Comfortaa', cursive;
+                font-size: 14px;
+                font-weight: 600;
+                color: #272727;
+                margin-top: 36px;
+                border: none;
+            }
+            
+        }
+
+    }
+
+}
+
+
+
+
+
